@@ -61,5 +61,4 @@ In the `xml`
 <Label  text={{ L('other')}} />
 ```
 
-> Note1 : Change the lang in the emulator
-> Note2 : Is experimental
+> Note1 : Change the lang in the emulator and is experimental
