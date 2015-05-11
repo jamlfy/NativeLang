@@ -54,7 +54,7 @@ In the files
 In your `app.js`
 ```js
 GLOBAL.L = require( "./node_modules/nativelang/lib" )();
-```js
+```
 
 In the `xml`
 ```xml
