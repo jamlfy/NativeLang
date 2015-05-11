@@ -1,0 +1,26 @@
+{
+  "name": "nativelang",
+  "version": "1.0.0",
+  "description": "NativeScript for Internationalization, in native",
+  "main": "lib.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alejonext/NativeLang.git"
+  },
+  "keywords": [
+    "NativeScript",
+    "{N}"
+  ],
+  "author": "AlejoNext <alejonext@gmail.com> (http://alejonext.co/)",
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/alejonext/NativeLang/blob/master/LICENSE"
+  },
+  "bugs": {
+    "url": "https://github.com/alejonext/NativeLang/issues"
+  },
+  "homepage": "https://github.com/alejonext/NativeLang",
+  "dependencies": {
+    "format" : ">=0.2.1"
+  }
+}
