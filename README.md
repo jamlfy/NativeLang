@@ -4,7 +4,7 @@ NativeScript for Internationalization
 ##Install
 Well.. Frist create the files
 ```
-├── app <------------------------------ run npm install from here
+├── app <----------------- run npm install from here
 │   ├── App_Resources
 │   │   └── ...
 │   ├── tns_modules
@@ -17,7 +17,7 @@ Well.. Frist create the files
 │   ├── node_modules
 │   │   └── nativelang <-- The install will place the module's code here
 │   │       └── ...
-│   └── package.json <----------------- The install will register “nativelang" as a dependency here
+│   └── package.json <---- The install will register “nativelang" as a dependency here
 └── platforms
     ├── android
     │   └── res
@@ -51,7 +51,7 @@ In the files
 
 ## Use
 
-In your `app.js`
+In your `app/app.js`
 ```js
 GLOBAL.L = require( "./node_modules/nativelang/lib" )();
 ```
@@ -61,4 +61,5 @@ In the `xml`
 <Label  text={{ L('other')}} />
 ```
 
-> Note : Change the lang in the emulator
+> Note1 : Change the lang in the emulator
+> Note2 : Is experimental
